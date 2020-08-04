@@ -46,6 +46,3 @@ class Scrape:
         else:
             return path.join(self.legit_url["wikipedia_kr"], self.topic)
         
-        
-    def wikiParse(self):
-        
