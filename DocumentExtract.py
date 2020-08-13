@@ -105,6 +105,9 @@ class Scrape:
 
         return ranked_w_score, ranked, word_degree, word_freq_dist
 
+    def crfResult(self):
+        pass
+
 
 if __name__=="__main__":
     topic_param = sys.argv[1]
